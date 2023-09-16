@@ -3,7 +3,56 @@ Author: Aileen Cortes
 Description: Style Sheet for Assignment
 ***************************************/
 
-.external-css{
-    color: coral;
+ul{
+    list-style-type: none;
+    margin-left: 20px;
+    margin-bottom: 12px;
+}
+a{
+    display: inline-block;
+    color: burlywood;
+    text-decoration: none;
+    padding: 5px 10px; 
+    border: 4px solid #f4a460;
+    transition: all 0.3s ease;
+}
+a:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+body{
     background-color: blanchedalmond;
+}
+h1, h2, h3, p{
+    margin-bottom: 10px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    color:darksalmon;
+    font-size: 2em;
+    margin-top: 1em;
+}
+h2{
+font-size: 1.5em;
+color:lightcoral;
+}
+h3{
+    font-size: 1.3em;
+    color:indianred;
+}
+p a{
+    color: coral;
+    text-decoration: none;
+}
+.feature-card{
+    border: 2px solid #f4a460;
+    padding: 20px;
+    margin: 20px;
+    background-color: antiquewhite;
+}
+#special-features{
+    border: 3px;
+    background-color:lightblue;
+    border-color:cornflowerblue;
 }
